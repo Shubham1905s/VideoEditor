@@ -7,16 +7,15 @@ import {
 	AccordionTrigger,
 } from "@/components/ui/accordion";
 import { Separator } from "@/components/ui/separator";
-import { SOCIAL_LINKS } from "@/constants/site-constants";
 
 export const metadata: Metadata = {
-	title: "Terms of Service - OpenCut",
+	title: "Terms of Service - VisionAstra",
 	description:
-		"OpenCut's Terms of Service. Fair, transparent terms for our free and open-source video editor.",
+		"VisionAstra's Terms of Service. Fair, transparent terms for our free and open-source video editor.",
 	openGraph: {
-		title: "Terms of Service - OpenCut",
+		title: "Terms of Service - VisionAstra",
 		description:
-			"OpenCut's Terms of Service. Fair, transparent terms for our free and open-source video editor.",
+			"VisionAstra's Terms of Service. Fair, transparent terms for our free and open-source video editor.",
 		type: "website",
 	},
 };
@@ -175,16 +174,8 @@ export default function TermsPage() {
 					<li>Contribute improvements back to the community</li>
 				</ul>
 				<p>
-					View our source code and license on{" "}
-					<a
-						href={SOCIAL_LINKS.github}
-						target="_blank"
-						rel="noopener"
-						className="text-primary hover:underline"
-					>
-						GitHub
-					</a>
-					.
+					Source code and license information are available in the app
+					distribution.
 				</p>
 			</section>
 
@@ -234,7 +225,9 @@ export default function TermsPage() {
 					<li>We'll notify you of significant changes to these terms</li>
 					<li>Continued use means you accept any updates</li>
 					<li>You can always self-host an older version if you prefer</li>
-					<li>Major changes will be discussed with the community on GitHub</li>
+					<li>
+						Major changes will be announced through official product updates
+					</li>
 				</ul>
 			</section>
 
@@ -253,37 +246,19 @@ export default function TermsPage() {
 				<h2 className="text-2xl font-semibold">Contact Us</h2>
 				<p>Questions about these terms or need to report an issue?</p>
 				<p>
-					Contact us through our{" "}
-					<a
-						href={`${SOCIAL_LINKS.github}/issues`}
-						target="_blank"
-						rel="noopener"
-						className="text-primary hover:underline"
-					>
-						GitHub repository
-					</a>
-					, email us at{" "}
+					Email us at{" "}
 					<a
 						href="mailto:oss@opencut.app"
 						className="text-primary hover:underline"
 					>
 						oss@opencut.app
 					</a>
-					, or reach out on{" "}
-					<a
-						href={SOCIAL_LINKS.x}
-						target="_blank"
-						rel="noopener"
-						className="text-primary hover:underline"
-					>
-						X (Twitter)
-					</a>
 					.
 				</p>
 				<p>
 					These terms are governed by applicable law in your jurisdiction. We
-					prefer to resolve disputes through friendly discussion in our
-					open-source community.
+					prefer to resolve disputes through friendly discussion whenever
+					possible.
 				</p>
 			</section>
 			<Separator />

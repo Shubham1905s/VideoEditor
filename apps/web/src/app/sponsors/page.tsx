@@ -9,13 +9,13 @@ import { LinkSquare02Icon } from "@hugeicons/core-free-icons";
 import { cn } from "@/utils/ui";
 
 export const metadata: Metadata = {
-	title: "Sponsors - OpenCut",
+	title: "Sponsors - VisionAstra",
 	description:
-		"Support OpenCut and help us build the future of free and open-source video editing.",
+		"Support VisionAstra and help us build the future of free and open-source video editing.",
 	openGraph: {
-		title: "Sponsors - OpenCut",
+		title: "Sponsors - VisionAstra",
 		description:
-			"Support OpenCut and help us build the future of free and open-source video editing.",
+			"Support VisionAstra and help us build the future of free and open-source video editing.",
 		type: "website",
 	},
 };

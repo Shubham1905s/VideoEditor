@@ -37,7 +37,7 @@ export const auth = betterAuth({
 		},
 	},
 	baseURL: webEnv.NEXT_PUBLIC_SITE_URL,
-	appName: "OpenCut",
+	appName: "VisionAstra",
 	trustedOrigins: [webEnv.NEXT_PUBLIC_SITE_URL],
 });
 

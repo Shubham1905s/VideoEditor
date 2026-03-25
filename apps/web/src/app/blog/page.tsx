@@ -6,13 +6,13 @@ import { getPosts } from "@/lib/blog/query";
 import type { Post } from "@/types/blog";
 
 export const metadata: Metadata = {
-	title: "Blog - OpenCut",
+	title: "Blog - VisionAstra",
 	description:
-		"Read the latest news and updates about OpenCut, the free and open-source video editor.",
+		"Read the latest news and updates about VisionAstra, the free and open-source video editor.",
 	openGraph: {
-		title: "Blog - OpenCut",
+		title: "Blog - VisionAstra",
 		description:
-			"Read the latest news and updates about OpenCut, the free and open-source video editor.",
+			"Read the latest news and updates about VisionAstra, the free and open-source video editor.",
 		type: "website",
 	},
 };

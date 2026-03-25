@@ -7,13 +7,13 @@ import { EXTERNAL_TOOLS } from "@/constants/site-constants";
 import { BasePage } from "../base-page";
 
 export const metadata: Metadata = {
-	title: "Contributors - OpenCut",
+	title: "Contributors - VisionAstra",
 	description:
-		"Meet the amazing people who contribute to OpenCut, the free and open-source video editor.",
+		"Meet the amazing people who contribute to VisionAstra, the free and open-source video editor.",
 	openGraph: {
-		title: "Contributors - OpenCut",
+		title: "Contributors - VisionAstra",
 		description:
-			"Meet the amazing people who contribute to OpenCut, the free and open-source video editor.",
+			"Meet the amazing people who contribute to VisionAstra, the free and open-source video editor.",
 		type: "website",
 	},
 };
@@ -70,7 +70,7 @@ export default async function ContributorsPage() {
 	return (
 		<BasePage
 			title="Contributors"
-			description="Meet the amazing people who contribute to OpenCut, the free and open-source video editor."
+			description="Meet the amazing people who contribute to VisionAstra, the free and open-source video editor."
 		>
 			<div className="-mt-4 flex items-center justify-center gap-8 text-sm">
 				<StatItem value={contributors.length} label="contributors" />

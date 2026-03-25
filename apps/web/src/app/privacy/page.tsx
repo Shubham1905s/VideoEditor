@@ -7,16 +7,15 @@ import {
 	AccordionTrigger,
 } from "@/components/ui/accordion";
 import { Separator } from "@/components/ui/separator";
-import { SOCIAL_LINKS } from "@/constants/site-constants";
 
 export const metadata: Metadata = {
-	title: "Privacy Policy - OpenCut",
+	title: "Privacy Policy - VisionAstra",
 	description:
-		"Learn how OpenCut handles your data and privacy. Our commitment to protecting your information while you edit videos.",
+		"Learn how VisionAstra handles your data and privacy. Our commitment to protecting your information while you edit videos.",
 	openGraph: {
-		title: "Privacy Policy - OpenCut",
+		title: "Privacy Policy - VisionAstra",
 		description:
-			"Learn how OpenCut handles your data and privacy. Our commitment to protecting your information while you edit videos.",
+			"Learn how VisionAstra handles your data and privacy. Our commitment to protecting your information while you edit videos.",
 		type: "website",
 	},
 };
@@ -231,16 +230,8 @@ export default function PrivacyPage() {
 					prefer.
 				</p>
 				<p>
-					View our source code on{" "}
-					<a
-						href={SOCIAL_LINKS.github}
-						target="_blank"
-						rel="noopener"
-						className="text-primary hover:underline"
-					>
-						GitHub
-					</a>
-					.
+					Source code transparency details are available in the distributed app
+					materials.
 				</p>
 			</section>
 
@@ -248,30 +239,12 @@ export default function PrivacyPage() {
 				<h2 className="text-2xl font-semibold">Contact Us</h2>
 				<p>Questions about this privacy policy or how we handle your data?</p>
 				<p>
-					Open an issue on our{" "}
-					<a
-						href={`${SOCIAL_LINKS.github}/issues`}
-						target="_blank"
-						rel="noopener"
-						className="text-primary hover:underline"
-					>
-						GitHub repository
-					</a>
-					, email us at{" "}
+					Email us at{" "}
 					<a
 						href="mailto:oss@opencut.app"
 						className="text-primary hover:underline"
 					>
 						oss@opencut.app
-					</a>
-					, or reach out on{" "}
-					<a
-						href={SOCIAL_LINKS.x}
-						target="_blank"
-						rel="noopener"
-						className="text-primary hover:underline"
-					>
-						X (Twitter)
 					</a>
 					.
 				</p>
