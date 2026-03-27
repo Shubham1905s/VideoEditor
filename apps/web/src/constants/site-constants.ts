@@ -20,7 +20,7 @@ export type ExternalTool = {
 };
 
 export const EXTERNAL_TOOLS: ExternalTool[] = [
-	{
+	{ 
 		name: "Marble",
 		description:
 			"Modern headless CMS for content management and the blog for OpenCut",
