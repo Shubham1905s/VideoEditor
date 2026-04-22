@@ -14,6 +14,11 @@ export class PlaybackManager {
 	constructor(private editor: EditorCore) {}
 
 	play(): void {
+		if (!this.hasPlayableContent()) {
+			this.pause();
+			return;
+		}
+
 		const duration = this.editor.timeline.getTotalDuration();
 
 		if (duration > 0) {
@@ -116,8 +121,18 @@ export class PlaybackManager {
 		return () => this.listeners.delete(listener);
 	}
 
+	canPlay(): boolean {
+		return this.hasPlayableContent();
+	}
+
 	private notify(): void {
 		this.listeners.forEach((fn) => fn());
+	}
+
+	private hasPlayableContent(): boolean {
+		return this.editor.timeline
+			.getTracks()
+			.some((track) => track.elements.length > 0);
 	}
 
 	private startTimer(): void {
